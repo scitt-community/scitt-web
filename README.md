@@ -7,7 +7,6 @@ SCITT Website
 ## Usage
 
 ```
-npm install netlify-cli serve -g
 brew install hugo
 npm i
 hugo
