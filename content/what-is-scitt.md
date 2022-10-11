@@ -13,7 +13,7 @@ However, documenting claims at the time software is built or deployed would sell
 
 ## SCITT Persistance
 
-SCITT is intended to store verifiable claims for the life of the of the SCITT instance. One of the many questions that surfaces is how big will the SCITT leger get? What kind of data will go on the SCITT ledger that would cause it to grow?
+SCITT is intended to store verifiable claims for the life of the of the SCITT instance. One of the many questions that surfaces is how big will the SCITT ledger get? What kind of data will go on the SCITT ledger that would cause it to grow?
 
 ### eNotary
 
