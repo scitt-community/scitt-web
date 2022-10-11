@@ -9,7 +9,7 @@ In SCITT, structured data is a claim. A claim is a well-structured statement, ma
 
 <img src="media/claims-evidence-relationship.png" alt="Identity, Claim, Evidence, Artifact relationship" style="width:300px;"/>
 
-However, documenting claims at the time software is built or deployed would sell SCITT short, as software isn't static. Software is continually updated, and more importantly, we continually learn and want to convey new information about artifacts that have already been release. Reputable OSS Projects and Independent Software Vendors (ISVs) don't intentionally produce software they know to be vulnerable. Only after the software is public do we often find out about new vulnerabilities. SCITT is a means to convey a stream of continual updates for each versioned artifact.
+However, documenting claims at the time software is built or deployed would sell SCITT short, as software isn't static. Software is continually updated, and more importantly, we continually learn and want to convey new information about artifacts that have already been released. Reputable OSS Projects and Independent Software Vendors (ISVs) don't intentionally produce software they know to be vulnerable. Only after the software is public do we often find out about new vulnerabilities. SCITT is a means to convey a stream of continual updates for each versioned artifact.
 
 ## SCITT Persistance
 
