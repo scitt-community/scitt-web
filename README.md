@@ -21,3 +21,7 @@ The Supply Chain Integrity, Transparency and Trust (SCITT) initiative is a set o
 ### Rust
 
 - [cose](https://crates.io/crates/cose)
+
+### .NET
+
+- [system.security.cryptography.cose](https://learn.microsoft.com/en-us/dotnet/api/system.security.cryptography.cose)
