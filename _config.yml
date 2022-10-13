@@ -3,3 +3,25 @@
 title: SCITT
 description: The Supply Chain Integrity, Transparency and Trust (SCITT) initiative is a set of proposed industry standards for managing the compliance of goods and services across end-to-end supply chains. 
 # google_analytics: [Your Google Analytics tracking ID]
+
+url: "https://ietf-scitt.github.io/scitt-web/"
+
+github:
+  private: false
+  license:
+    name: Apache-2.0
+  source:
+    branch: "master"
+    path: "/"
+  repository_url: "https://github.com/ietf-scitt/scitt-web"
+
+defaults:
+  - scope:
+      path: "**/*.*"
+    values:
+      sitemap: true
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
