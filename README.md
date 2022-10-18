@@ -3,7 +3,7 @@ layout: page
 title: SCITT
 permalink: /index
 ---
-The **S**upply **C**hain **I**ntegrity, **T**ransparency and **T**rust (SCITT) initiative is a set of proposed IETF industry standards for managing the compliance of goods and services across end-to-end supply chains.
+The **S**upply **C**hain **I**ntegrity, **T**ransparency and **T**rust (SCITT) initiative is a set of proposed [IETF industry standards]({{ site.ietf-scitt }}){:target="_blank"} for managing the compliance of goods and services across end-to-end supply chains.
 SCITT supports the ongoing verification of goods and services where the authenticity of entities, evidence, policy, and artifacts can be assured and the actions of entities can be guaranteed to be authorized, non-repudiable, immutable, and auditable.
 
 ## Interacting with SCITT
@@ -38,5 +38,3 @@ A SCITT instance will persist verifiable claims to its ledger. Any optional evid
 While a SCITT instance should provide a default storage, there's no limit on what storage services are used. For package managers that support breadths of content types, the evidence may be stored alongside the artifact by which the claim is being made. For package managers that limit the content types to the specific package type, a SCITT instance should provide default storage persistance.
 
 > TO BE CONTINUED
-
-#### [View on GitHub](https://github.com/ietf-scitt/scitt-web)

@@ -23,6 +23,7 @@ baseurl: "/scitt-web" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: SCITT
 github_username:  ietf-scitt
+ietf-scitt: https://datatracker.ietf.org/group/scitt/documents/
 
 # Build settings
 markdown: kramdown
