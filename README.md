@@ -1,3 +1,8 @@
+---
+layout: home
+title: readme
+permalink: /index
+---
 # SCITT
 
 #### [View on GitHub](https://github.com/ietf-scitt/scitt-web)
