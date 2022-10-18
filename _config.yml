@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   SCITT provides information about artifacts, 
   enabling a mesh of dependencies to understand what each system is consuming.
   Detailed information comes in varying formats, from structured to unstructured.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/scitt-web" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: SCITT
 github_username:  ietf-scitt
