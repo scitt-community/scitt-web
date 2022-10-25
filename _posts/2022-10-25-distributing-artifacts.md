@@ -43,7 +43,7 @@ As artifacts move across the supply chain, the integrity of the artifact must be
 
 ### The Software Supply Chain
 
-<img src="/assets/supply-chain-e2e.svg" alt="Consuming Public Content" style="width:800px;"/>
+<img src="./assets/supply-chain-e2e.svg" alt="Consuming Public Content" style="width:800px;"/>
 
 **Publisher**:
 
@@ -70,7 +70,7 @@ Using the supply chain above, we can see the use of:
 - [OCI Distribution based registries][oci-distribution-spec] for securely storing and distributing all types of artifacts.
 - [COSE based signatures][cose-spec]: for sealing artifacts with verifiable identities.
 
-<img src="/assets/supply-chain-e2e-oci.svg" alt="Consuming Public Content" style="width:800px;"/>
+<img src="./assets/supply-chain-e2e-oci.svg" alt="Consuming Public Content" style="width:800px;"/>
 
 **Publisher**:
 
@@ -87,7 +87,6 @@ Using the supply chain above, we can see the use of:
 ### Regional Reliability and Private Networks 
 
 ACME Rockets, like most companies, want their private software environments to remain private, even though they may be running on public clouds. By leveraging cloud provider OCI Distribution based registries, consumers may benefit from private network support, as well as regional availability and global replication.
-
 
 ## Adding SCITT Capabilities to Existing Services
 
