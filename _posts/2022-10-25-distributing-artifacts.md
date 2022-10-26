@@ -92,11 +92,15 @@ ACME Rockets, like most companies, want their private software environments to r
 
 In the above example existing registries are utilized to track claims with verifiable signatures. While OCI Distribution based registries provide basic push/discover/pull of artifacts and related artifacts, it lacks policy based submission and richer query capabilities.
 
+In the example below, the submission of claims, made by verifiable identities, are made to the SCITT service which has been associated the OCI Distribution based registry. Receipts for the claims are placed in the registry, enabling offline verification of the claims. However, the SCITT service provides richer querying to find specific claims made by specific identities.
+
+<img src="./assets/supply-chain-e2e-oci-scitt.svg" alt="Consuming Public Content" style="width:800px;"/>
+
+The benefits above highlight the ability to add SCITT capabilities to existing registries, enabling promotion of artifacts and claims, into private networks the registry is already configured to operate.
+
 > TODO: 
-> - Add SCITT extensions to OCI Registries
 > - eNotary to verify the identities
 > - Promote "revocation" scenario
-
 
 [cose-spec]:               https://datatracker.ietf.org/doc/html/rfc8152
 [oras-copy]:               https://oras.land/blog/oras-0.14-and-future/#copy-an-image-from-registry-a-to-registry-b
