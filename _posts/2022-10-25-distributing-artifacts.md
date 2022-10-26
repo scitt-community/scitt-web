@@ -5,19 +5,6 @@ author: Steve Lasker
 permalink: /distributing-with-oci
 ---
 
-# Distributing Supply Chain Artifacts, Today and Tomorrow
-
-## STORY ARCH
-1. What is a supply chain? (distribution across multiple locations)
-2. How do you assure the artifact is authentic?
-   1. Did you get it from someone you trust?
-   2. If you pick it up from another location, how do you know it's still authentic? Can you/should you still trust the location?
-3. What and how are you distributing information that attests to the current stability?
-4. What and how are you distributing newly learned information?
-5. How do users discover the associated SBOM artifacts?
-
-Distributing artifacts 
-
 ## What is a Supply Chain
 
 Are supply chains unique to software? Consider this definition from [Adam Hayes – Investopedia](https://www.investopedia.com/terms/s/supplychain.asp)
