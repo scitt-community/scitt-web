@@ -5,11 +5,11 @@ permalink: /libraries
 ---
 # SCITT Libraries
 
-A collection of libraries to support SCITT scitt standards.
+A collection of libraries to support SCITT standards.
 
 ### SCITT Libraries
 
-- Comming soon
+- Coming soon
 
 ### COSE Libraries
 - [golang: veraison/go-cose](https://github.com/veraison/go-cose)
