@@ -17,3 +17,4 @@ A collection of libraries to support SCITT scitt standards.
 - [Rust: cose](https://crates.io/crates/cose)
 - [COSE Test vectors: gluecose/test-vectors](https://github.com/gluecose/test-vectors)
 - [.NET: system.security.cryptography.cose](https://learn.microsoft.com/en-us/dotnet/api/system.security.cryptography.cose)
+- [Python: timothyclaeys/pycose](https://github.com/timothyclaeys/pycose)
