@@ -18,8 +18,8 @@ title: SCITT - Supply Chain Integrity and Trust
 description: >- # this means to ignore newlines until "baseurl:"
   The Supply Chain Integrity, Transparency and Trust (SCITT) initiative is a set of proposed industry standards for managing the compliance of goods and services across end-to-end supply chains.
 baseurl: "/scitt-web" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: SCITT
+# url: "" # the base hostname & protocol for your site, e.g. http://example.com
+# twitter_username: SCITT
 github_username:  ietf-scitt
 ietf-scitt: https://datatracker.ietf.org/group/scitt/documents/
 
@@ -30,12 +30,13 @@ plugins:
   - jekyll-feed
 
 # Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
+# The following items will not be processed, by default. 
+exclude:
+  - dockerfile
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - site-development.md
 #   - vendor/bundle/
 #   - vendor/cache/
 #   - vendor/gems/
