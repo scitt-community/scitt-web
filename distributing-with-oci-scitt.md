@@ -8,7 +8,7 @@ In the [Distributing with OCI Registries](distributing-with-oci-registries) exam
 
 <img src="./assets/what-is-scitt.svg" alt="What Is SCITT" align="right" style="width:400px;"/>
 
-In the SCITT workflow, the submission of claims, made by verifiable identities, are made to the SCITT service. The identity of the claims are verified to meet the policies of the SCITT instance. Any associated claims and evidence are persisted in the SCITT storage provider. In this case, the OCI Distribution based registry from above is used. By extending the existing services, the users workflows are _enhanced_, not dramatically changed.
+In the SCITT workflow, the submission of claims, made by verifiable identities, are made to the SCITT service. The identity of the claims are verified to meet the policies of the SCITT instance. Any associated claims and evidence are persisted in the SCITT storage provider. In this case, the OCI Distribution based registry from above is used. By extending the existing services, the users workflows are _enhanced_, but not dramatically changed.
 
 <img src="./assets/supply-chain-e2e-oci-scitt.svg" alt="Consuming Public Content" style="width:800px;"/>
 
@@ -17,7 +17,7 @@ Receipts for the claims are placed in the registry, enabling offline verificatio
 <img src="./assets/wabbit-network-claims-signature.svg" alt="Detached COSE Signature" align="left" style="width:50px;padding-right:10px"/>
 <img src="./assets/wabbit-network-claims-receipt.svg" alt="Detached COSE Receipt" align="right" style="width:50px;padding-left:10px"/>
 
-One of the specific enhancements is the shift from claim with a detached COSE based **signature**, to a claim with a detached COSE based **receipt**.
+One of the specific enhancements is the shift from claim with a detached COSE based **signature**, to a claim with a detached [COSE based **receipt**][ietf-scitt-receipts].
 <br><br>
 1. The SBOM, which is a type of evidence, is submitted to the SCITT APIs. The SCITT ledger will index the mediaType of the evidence, the identity of the detached signature for the evidence, and the unique identifier of the `net-monitor:v1` image. This establishes a relationship that can be queried, returning the claims and evidence related to the unique identifier of the `net-monitor:v1` image.  
 A COSE enveloped receipt, which encapsulates the ledger information, and the evidence (SBOM) are then persisted in the registry. The COSE based SCITT receipt replaces the COSE based signature in the previous OCI only workflow.  
@@ -41,3 +41,4 @@ The SCITT APIs are exposed through the underlying storage providers APIs. In the
 [cose-spec]:               https://datatracker.ietf.org/doc/html/rfc8152
 [oras-copy]:               https://oras.land/blog/oras-0.14-and-future/#copy-an-image-from-registry-a-to-registry-b
 [oci-distribution-spec]:   https://github.com/opencontainers/distribution-spec
+[ietf-scitt-receipts]:     https://datatracker.ietf.org/doc/draft-birkholz-scitt-receipts/
