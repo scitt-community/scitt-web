@@ -2,6 +2,7 @@
 layout: page
 title: SCITT Libraries
 permalink: /libraries
+nav_order: 50
 ---
 # SCITT Libraries
 
@@ -9,7 +10,7 @@ A collection of libraries to support SCITT scitt standards.
 
 ### SCITT Libraries
 
-- Comming soon
+- Coming soon
 
 ### COSE Libraries
 - [golang: veraison/go-cose](https://github.com/veraison/go-cose)

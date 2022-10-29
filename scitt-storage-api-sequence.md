@@ -1,7 +1,10 @@
 ---
 layout: page
 title:  "SCITT API Sequence/Workflow"
+nav_exclude: true
 ---
+
+# SCITT API Sequence/Workflow
 
 >TODO: Cover the API workflow for how:
 > - Evidence is submitted

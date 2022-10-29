@@ -1,9 +1,14 @@
 ---
 layout: page
-title:  "What is a Supply Chain"
+title:  Supply Chains
 author: Steve Lasker
-permalink: /what-is-supply-chain
+permalink: /supply-chain
+nav_order: 1
+has_children: true
+has_toc: false
 ---
+
+# Supply Chains
 
 Are supply chains unique to software? Consider this definition from [Adam Hayes – Investopedia](https://www.investopedia.com/terms/s/supplychain.asp)
 
@@ -18,9 +23,9 @@ A supply chain spans multiple entities, requiring the promotion of artifacts acr
 When you consume an artifact from a new location, how does the user know it originated from a trusted producer? Do you only purchase Tylenol directly from Johnson & Johnson? Do you only acquire software directly from a vendor, or do you promote to a secured internal location within your control, just as you bring Tylenol and other goods into your home for when you need it?
 As artifacts move across the supply chain, the integrity of the artifact must be maintained. 
 
-> [How the Tylenol incident of 1982 changed the way we consume medication](https://www.pbs.org/newshour/health/tylenol-murders-1982)
+> [How the Tylenol incident of 1982 changed the way we consume medication](https://www.pbs.org/newshour/health/tylenol-murders-1982){:target="_blank"}
 >
-> <img align="left" height="100" style="padding-right:10px" src="https://d3i6fh83elv35t.cloudfront.net/static/2014/09/95797955-1-207x300.jpg">
+> <img align="left" width="80" style="padding-right:10px" src="https://d3i6fh83elv35t.cloudfront.net/static/2014/09/95797955-1-207x300.jpg">
 >
 > Lessons from the physical supply chain can and should be implemented in the digital supply chain. Prior to 1982, medication was shipped without any concept of a safety seal. Another place we look for integrity; opening your favorite beverage. If you don’t feel the vacuum seal release, you immediately question the integrity of the product. 
 >
@@ -43,5 +48,9 @@ As artifacts move across the supply chain, the integrity of the artifact must be
 
 The following are examples how you may distribute supply chain artifacts:
 
-- [Distributing with OCI Registries](distributing-with-oci-registries)
-- [Distributing with OCI Registries, with SCITT Enhancements](distributing-with-oci-scitt)
+- [Distributing with OCI Registries]({% link distributing-with-oci-registries.md %})
+- [Distributing with OCI Registries, with SCITT Enhancements]({% link distributing-with-oci-scitt.md %})
+
+[cose-spec]:               https://datatracker.ietf.org/doc/html/rfc8152
+[oras-copy]:               https://oras.land/blog/oras-0.14-and-future/#copy-an-image-from-registry-a-to-registry-b
+[oci-distribution-spec]:   https://github.com/opencontainers/distribution-spec
