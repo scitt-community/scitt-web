@@ -21,13 +21,15 @@ baseurl: "/" # the subpath of your site, e.g. /blog
 # url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: SCITT
 github_username:  ietf-scitt
-ietf-scitt: https://datatracker.ietf.org/group/scitt/documents/
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: just-the-docs
+remote_theme: just-the-docs/just-the-docs@v0.4.0.rc3
+
 plugins:
   - jekyll-feed
+  - jekyll-relative-links
 
 # Exclude from processing.
 # The following items will not be processed, by default. 
@@ -41,3 +43,55 @@ exclude:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+#page_excerpts: true
+
+# Sitewide Links
+ietf-scitt: https://datatracker.ietf.org/group/scitt/documents/
+
+nav_external_links:
+  - title: "IETF datatracker:SCITT"
+    url: https://datatracker.ietf.org/wg/scitt/
+    hide_icon: false
+  - title: "SCITT Architecture"
+    url: https://datatracker.ietf.org/doc/draft-birkholz-scitt-architecture/
+    hide_icon: false
+  - title: "SCITT Receipts"
+    url: https://datatracker.ietf.org/doc/draft-birkholz-scitt-receipts/
+    hide_icon: false
+  - title: "SCITT Software Use Case"
+    url: https://datatracker.ietf.org/doc/draft-birkholz-scitt-software-use-cases/
+    hide_icon: false
+
+##############################
+# Just the Docs Theme Settings
+##############################
+
+# Set a path/url to a logo that will be displayed instead of the title
+logo: "/assets/scitt-logo.svg"
+
+aux_links:
+  "IETF:SCITT":
+    - //datatracker.ietf.org/wg/scitt/about/
+
+# Makes Aux links open in a new tab. Default is false
+aux_links_new_tab: true
+
+# Heading anchor links appear on hover over h1-h6 tags in page content
+# allowing users to deep link to a particular heading on a page.
+#
+# Supports true (default) or false
+heading_anchors: true
+
+# Footer content
+
+# Footer "Edit this page on GitHub" link text
+gh_edit_link: true # show or hide edit this page link
+gh_edit_link_text: "Edit this page on GitHub."
+gh_edit_repository: "https://github.com/ietf-scitt/scitt-web" # the github URL for your repo
+gh_edit_branch: "main" # the branch that your docs is served from
+# gh_edit_source: docs # the source that your files originate from
+gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
+
+# Color scheme supports "light" (default) and "dark"
+color_scheme: light

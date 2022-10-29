@@ -2,7 +2,11 @@
 layout: page
 title:  "Distributing with OCI Registries"
 author: Steve Lasker
+parent: Supply Chains
+nav_order: 1
 ---
+
+# Distributing with OCI Registries
 
 As we think of SCITT providing a ledger, attesting to transparency and trust, these are new, developing capabilities that will take time to evolve, and be deployed across all cloud providers, for each software vendor, or company that builds software to run in their environment.
 
@@ -10,15 +14,15 @@ There are existing capabilities that can be used today, that are production supp
 
 Using the supply chain above, we can see the use of:
 
-- [OCI Distribution based registries][oci-distribution-spec] for securely storing and distributing all types of artifacts.
-- [COSE based signatures][cose-spec]: for sealing artifacts with verifiable identities.
+- [OCI Distribution based registries][oci-distribution-spec]{:target="_blank"} for securely storing and distributing all types of artifacts.
+- [COSE based signatures][cose-spec]{:target="_blank"}: for sealing artifacts with verifiable identities.
 
 <img src="./assets/supply-chain-e2e-oci.svg" alt="Consuming Public Content" style="width:800px;"/>
   
-1. **Creation**: The output of a build environment publishes the container images, or other packages, to an [OCI Distribution][oci-distribution-spec] based registry. This includes an SBOM and internal build evidence that would be maintained. All published artifacts are signed with a [COSE][cose-spec] based signature, using `notation sign` assuring there's a verifiable identity associated with each artifact.
+1. **Creation**: The output of a build environment publishes the container images, or other packages, to an [OCI Distribution][oci-distribution-spec]{:target="_blank"} based registry. This includes an SBOM and internal build evidence that would be maintained. All published artifacts are signed with a [COSE][cose-spec]{:target="_blank"} based signature, using `notation sign` assuring there's a verifiable identity associated with each artifact.
 2. **Verification**: Subsequent verification processes may write claims to the registry, with a verifiable COSE based signature.
 3. **Distribution**: The publisher (Wabbit Networks) may choose to publish a _subset_ of the related artifacts as the internal claims are maintained for forensics should any issues arise.  
-4. **Consumer Distribution**: The consumer (ACME Rockets) subscribes to the `net-monitor:v1` published artifact, and copies all the related artifacts using [`oras copy`][oras-copy].  
+4. **Consumer Distribution**: The consumer (ACME Rockets) subscribes to the `net-monitor:v1` published artifact, and copies all the related artifacts using [`oras copy`][oras-copy]{:target="_blank"}.  
   _See [Artifact Updates](#artifact-updates) for subsequent updates, such as newly discovered vulnerabilities, redirects and revocation._
 5. **Consumer Verification**: As part of the ACME Rockets verification steps additional scans may be applied to consumed artifacts and updates. Additional claims are added, attesting to the allowed usage within the ACME Rockets environment. The additional claims are signed by ACME Rockets, which may supersede any claims made by the publisher (Wabbit Networks).
 6. **Consumption**: As a consumer deploys their software, they'll want to verify the artifacts are intended for the particular environment. Using `notation verify <artifact>`, a consumer can assure it's from a trusted identity, approved for consumption in the target environment.  
@@ -31,3 +35,7 @@ ACME Rockets, like most companies, want their private software environments to r
 
 **Up Next**:
 - See [Distributing with OCI Registries, with SCITT Enhancements](distributing-with-oci-scitt)
+
+[cose-spec]:               https://datatracker.ietf.org/doc/html/rfc8152
+[oras-copy]:               https://oras.land/blog/oras-0.14-and-future/#copy-an-image-from-registry-a-to-registry-b
+[oci-distribution-spec]:   https://github.com/opencontainers/distribution-spec
