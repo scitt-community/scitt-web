@@ -25,7 +25,7 @@ ietf-scitt: https://datatracker.ietf.org/group/scitt/documents/
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: just-the-docs
 plugins:
   - jekyll-feed
 
