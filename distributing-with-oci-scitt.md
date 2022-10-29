@@ -1,10 +1,14 @@
 ---
 layout: page
-title:  "Distributing with OCI Registries, with SCITT Enhancements"
+title:  "OCI Registries, with SCITT Enhancements"
 author: Steve Lasker
+parent: Supply Chains
+nav_order: 2
 ---
 
-In the [Distributing with OCI Registries](distributing-with-oci-registries) example existing registries are utilized to track claims with verifiable signatures. While OCI Distribution based registries provide basic `push|discover|pull` of artifacts and related claims & evidence, OCI Distribution based registries lack policy based submission (eNotary verification) and richer query capabilities.
+# Distributing with OCI Registries, with SCITT Enhancements
+
+In the [Distributing with OCI Registries]({% link distributing-with-oci-registries.md %} ) example existing registries are utilized to track claims with verifiable signatures. While OCI Distribution based registries provide basic `push|discover|pull` of artifacts and related claims & evidence, OCI Distribution based registries lack policy based submission (eNotary verification) and richer query capabilities.
 
 <img src="./assets/what-is-scitt.svg" alt="What Is SCITT" align="right" style="width:400px;"/>
 
@@ -37,8 +41,3 @@ The SCITT APIs are exposed through the underlying storage providers APIs. In the
 
 > TODO: 
 > describe updated streams, including redirection, EOL and revocation scenarios.
-
-[cose-spec]:               https://datatracker.ietf.org/doc/html/rfc8152
-[oras-copy]:               https://oras.land/blog/oras-0.14-and-future/#copy-an-image-from-registry-a-to-registry-b
-[oci-distribution-spec]:   https://github.com/opencontainers/distribution-spec
-[ietf-scitt-receipts]:     https://datatracker.ietf.org/doc/draft-birkholz-scitt-receipts/
