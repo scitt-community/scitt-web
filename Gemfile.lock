@@ -81,7 +81,7 @@ DEPENDENCIES
   jekyll (~> 3.9.2)
   jekyll-feed (~> 0.6)
   jekyll-relative-links
-  just-the-docs (= 0.4.0.rc3)
+  just-the-docs (~> 0.4.0.rc3)
   kramdown-parser-gfm
   tzinfo (~> 1.2)
   tzinfo-data
