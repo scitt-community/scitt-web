@@ -1,7 +1,6 @@
 ---
 layout: page
 title:  "Distributing with OCI Registries"
-author: Steve Lasker
 parent: Supply Chains
 nav_order: 1
 ---

@@ -1,7 +1,6 @@
 ---
 layout: page
 title:  "OCI Registries, with SCITT Enhancements"
-author: Steve Lasker
 parent: Supply Chains
 nav_order: 2
 ---
