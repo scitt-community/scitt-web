@@ -16,7 +16,7 @@ Using the supply chain above, we can see the use of:
 - [OCI Distribution based registries][oci-distribution-spec]{:target="_blank"} for securely storing and distributing all types of artifacts.
 - [COSE based signatures][cose-spec]{:target="_blank"}: for sealing artifacts with verifiable identities.
 
-<img src="./assets/supply-chain-e2e-oci.svg" alt="Consuming Public Content" style="width:800px;"/>
+<img src="/assets/supply-chain-e2e-oci.svg" alt="Consuming Public Content" style="width:800px;"/>
   
 1. **Creation**: The output of a build environment publishes the container images, or other packages, to an [OCI Distribution][oci-distribution-spec]{:target="_blank"} based registry. This includes an SBOM and internal build evidence that would be maintained. All published artifacts are signed with a [COSE][cose-spec]{:target="_blank"} based signature, using `notation sign` assuring there's a verifiable identity associated with each artifact.
 2. **Verification**: Subsequent verification processes may write claims to the registry, with a verifiable COSE based signature.

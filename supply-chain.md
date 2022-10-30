@@ -1,7 +1,6 @@
 ---
 layout: page
 title:  Supply Chains
-author: Steve Lasker
 permalink: /supply-chain
 nav_order: 1
 has_children: true

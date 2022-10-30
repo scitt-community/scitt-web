@@ -7,18 +7,18 @@ nav_order: 2
 
 # Distributing with OCI Registries, with SCITT Enhancements
 
-In the [Distributing with OCI Registries]({% link distributing-with-oci-registries.md %} ) example existing registries are utilized to track claims with verifiable signatures. While OCI Distribution based registries provide basic `push|discover|pull` of artifacts and related claims & evidence, OCI Distribution based registries lack policy based submission (eNotary verification) and richer query capabilities.
+In the [Distributing with OCI Registries]({% link deployments/distributing-with-oci-registries.md %} ) example existing registries are utilized to track claims with verifiable signatures. While OCI Distribution based registries provide basic `push|discover|pull` of artifacts and related claims & evidence, OCI Distribution based registries lack policy based submission (eNotary verification) and richer query capabilities.
 
-<img src="./assets/what-is-scitt.svg" alt="What Is SCITT" align="right" style="width:400px;"/>
+<img src="/assets/what-is-scitt.svg" alt="What Is SCITT" align="right" style="width:400px;"/>
 
 In the SCITT workflow, the submission of claims, made by verifiable identities, are made to the SCITT service. The identity of the claims are verified to meet the policies of the SCITT instance. Any associated claims and evidence are persisted in the SCITT storage provider. In this case, the OCI Distribution based registry from above is used. By extending the existing services, the users workflows are _enhanced_, but not dramatically changed.
 
-<img src="./assets/supply-chain-e2e-oci-scitt.svg" alt="Consuming Public Content" style="width:800px;"/>
+<img src="/assets/supply-chain-e2e-oci-scitt.svg" alt="Consuming Public Content" style="width:800px;"/>
 
 Receipts for the claims are placed in the registry, enabling offline verification of the claims. However, the SCITT service provides richer querying to find specific claims made by specific identities.
 
-<img src="./assets/wabbit-network-claims-signature.svg" alt="Detached COSE Signature" align="left" style="width:50px;padding-right:10px"/>
-<img src="./assets/wabbit-network-claims-receipt.svg" alt="Detached COSE Receipt" align="right" style="width:50px;padding-left:10px"/>
+<img src="/assets/wabbit-network-claims-signature.svg" alt="Detached COSE Signature" align="left" style="width:50px;padding-right:10px"/>
+<img src="/assets/wabbit-network-claims-receipt.svg" alt="Detached COSE Receipt" align="right" style="width:50px;padding-left:10px"/>
 
 One of the specific enhancements is the shift from claim with a detached COSE based **signature**, to a claim with a detached [COSE based **receipt**][ietf-scitt-receipts].
 <br><br>
