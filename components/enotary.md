@@ -47,7 +47,7 @@ The Wabbit Networks device driver is imported to ACME Rockets outside of the SCI
 
 1. A claim, indicating ownership of the Wabbit Networks device driver, is submitted to the SCITT instance. The claim contains a unique ID ([purl?](https://github.com/ietf-scitt/scitt-web/issues/28)) to the device driver.
 2. On ingress, the SCITT eNotary parses the identity associated with the claim and compares the identity type with those supported in the eNotary policy. The eNotary policy also supports allow/deny lists for specific identities.
-3. If the eNotary policy supports the identity type, including x509 and DID providers, the eNotary will attempt to verify the validity of the identity.
+3. If the eNotary policy supports the identity type, including x509 and [DID](https://www.w3.org/TR/did-core/) providers, the eNotary will attempt to verify the validity of the identity.
 4. If the identify is verified, the claim is persisted to an associated storage provider.
 5. A notarized entry is made to the SCITT ledger.
 6. A receipt is generated, using the specific SCITT instances eNotary signing key. In this case, the ACME Rockets eNotary key.
