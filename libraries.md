@@ -2,6 +2,7 @@
 layout: page
 title: SCITT Libraries
 permalink: /libraries
+nav_order: 50
 ---
 # SCITT Libraries
 

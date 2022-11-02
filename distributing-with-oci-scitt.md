@@ -5,7 +5,9 @@ parent: Supply Chains
 nav_order: 2
 ---
 
-In the [Distributing with OCI Registries](distributing-with-oci-registries) example existing registries are utilized to track claims with verifiable signatures. While OCI Distribution based registries provide basic `push|discover|pull` of artifacts and related claims & evidence, OCI Distribution based registries lack policy based submission (eNotary verification) and richer query capabilities.
+# Distributing with OCI Registries, with SCITT Enhancements
+
+In the [Distributing with OCI Registries]({% link distributing-with-oci-registries.md %} ) example existing registries are utilized to track claims with verifiable signatures. While OCI Distribution based registries provide basic `push|discover|pull` of artifacts and related claims & evidence, OCI Distribution based registries lack policy based submission (eNotary verification) and richer query capabilities.
 
 <img src="./assets/what-is-scitt.svg" alt="What Is SCITT" align="right" style="width:400px;"/>
 
