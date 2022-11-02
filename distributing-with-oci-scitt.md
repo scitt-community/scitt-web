@@ -1,7 +1,8 @@
 ---
 layout: page
-title:  "Distributing with OCI Registries, with SCITT Enhancements"
-author: Steve Lasker
+title:  "OCI Registries, with SCITT Enhancements"
+parent: Supply Chains
+nav_order: 2
 ---
 
 In the [Distributing with OCI Registries](distributing-with-oci-registries) example existing registries are utilized to track claims with verifiable signatures. While OCI Distribution based registries provide basic `push|discover|pull` of artifacts and related claims & evidence, OCI Distribution based registries lack policy based submission (eNotary verification) and richer query capabilities.
@@ -14,8 +15,8 @@ In the SCITT workflow, the submission of claims, made by verifiable identities, 
 
 Receipts for the claims are placed in the registry, enabling offline verification of the claims. However, the SCITT service provides richer querying to find specific claims made by specific identities.
 
-<img src="./assets/wabbit-network-claims-signature.svg" alt="Detached COSE Signature" align="left" style="width:50px;padding-right:10px"/>
-<img src="./assets/wabbit-network-claims-receipt.svg" alt="Detached COSE Receipt" align="right" style="width:50px;padding-left:10px"/>
+<img src="./assets/wabbit-network-claims-signature.svg" alt="Detached COSE Signature" align="left" style="width:100px;padding-right:10px"/>
+<img src="./assets/wabbit-network-claims-receipt.svg" alt="Detached COSE Receipt" align="right" style="width:100px;padding-left:10px"/>
 
 One of the specific enhancements is the shift from claim with a detached COSE based **signature**, to a claim with a detached [COSE based **receipt**][ietf-scitt-receipts].
 <br><br>
@@ -38,7 +39,4 @@ The SCITT APIs are exposed through the underlying storage providers APIs. In the
 > TODO: 
 > describe updated streams, including redirection, EOL and revocation scenarios.
 
-[cose-spec]:               https://datatracker.ietf.org/doc/html/rfc8152
-[oras-copy]:               https://oras.land/blog/oras-0.14-and-future/#copy-an-image-from-registry-a-to-registry-b
-[oci-distribution-spec]:   https://github.com/opencontainers/distribution-spec
-[ietf-scitt-receipts]:     https://datatracker.ietf.org/doc/draft-birkholz-scitt-receipts/
+[ietf-scitt-receipts]: https://datatracker.ietf.org/doc/draft-birkholz-scitt-receipts/

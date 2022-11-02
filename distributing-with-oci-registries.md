@@ -1,7 +1,8 @@
 ---
 layout: page
 title:  "Distributing with OCI Registries"
-author: Steve Lasker
+parent: Supply Chains
+nav_order: 1
 ---
 
 As we think of SCITT providing a ledger, attesting to transparency and trust, these are new, developing capabilities that will take time to evolve, and be deployed across all cloud providers, for each software vendor, or company that builds software to run in their environment.
