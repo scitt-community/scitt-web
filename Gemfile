@@ -12,6 +12,8 @@ gem "jekyll", "~> 3.9.2"
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem "just-the-docs", "~> 0.4.0.rc3"
+# https://github.com/benbalter/jekyll-relative-links
+gem 'jekyll-relative-links'
 
 # https://github.com/benbalter/jekyll-relative-links
 gem 'jekyll-relative-links'
