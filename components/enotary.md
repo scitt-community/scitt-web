@@ -28,7 +28,7 @@ Owen is simply performing the operation to import the driver and SBOM, but isn't
 When Parker goes to install the Wabbit Networks device driver, the installation checks the identity of the driver, and may even check the contents of the SBOM. The sysetm must be signed by a trusted identity, in this case: Wabbit Networks.
 The trust is placed on the identity of the artifact, the access control limits are external to the SCITT functionality.
 
-The eNotary policy provides control over the identity provider types, such as x509 issued certificates, or additional DID Web based identities.
+The eNotary policy provides control over the identity provider types, such as x509 issued certificates, or additional identifiers.
 
 Also similar to a public notary, the eNotary process does not attempt to validate the evidence being notarized.
 
