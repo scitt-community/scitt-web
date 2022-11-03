@@ -4,7 +4,7 @@ title: What Is SCITT
 permalink: /index
 nav_order: 0
 ---
-
+ 
 # What Is SCITT
 
 The **S**upply **C**hain **I**ntegrity, **T**ransparency and **T**rust (SCITT) initiative is a set of proposed [IETF industry standards]({{ site.ietf-scitt }}){:target="_blank"} for managing the compliance of goods and services across end-to-end supply chains.
