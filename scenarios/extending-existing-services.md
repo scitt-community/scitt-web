@@ -15,7 +15,7 @@ SCITT provides a set of API for pushing, discovering and pulling supply chain cl
 
 By extending existing projects, products and services with SCITT apis, the users of the existing projects will see value added to their services without having to configure yet another service, or configure yet more firewall rules.
 
-<img src="./assets/interoperability.svg" alt="Consuming Public Content" style="width:800px;"/>
+<img src="/assets/interoperability.svg" alt="Consuming Public Content" style="width:800px;"/>
 
 1. ACME Rockets uses the Spacley Cloud Provider. Although they run in a public cloud, they run their secure environments within private networks (VNet).
 2. The Spacley Cloud provides a set of cloud services, which provide VNet projection enabling their customers to run their private environments in a public cloud.
