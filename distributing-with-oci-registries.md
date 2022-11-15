@@ -36,5 +36,5 @@ ACME Rockets, like most companies, want their private software environments to r
 - See [Distributing with OCI Registries, with SCITT Enhancements](distributing-with-oci-scitt)
 
 [cose-spec]:               https://datatracker.ietf.org/doc/html/rfc8152
-[oras-copy]:               https://oras.land/blog/oras-0.14-and-future/#copy-an-image-from-registry-a-to-registry-b
+[oras-copy]:               https://oras.land/cli_reference/4_oras_copy/
 [oci-distribution-spec]:   https://github.com/opencontainers/distribution-spec
