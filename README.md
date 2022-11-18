@@ -23,7 +23,7 @@ In SCITT, structured data is a claim. A claim is a well-structured statement, ma
 
 Documenting claims at the time software is built or deployed would sell SCITT short, as software isn't static. Software is continually updated, and more importantly, we continually learn and want to convey new information about artifacts that have already been released. Reputable OSS Projects and Independent Software Vendors (ISVs) don't intentionally produce software they know to be vulnerable. Only after the software is public do we often find out about new vulnerabilities. SCITT is a means to convey a stream of continual updates for each versioned artifact.
 
-## SCITT Persistance
+## SCITT Persistence
 
 SCITT is intended to store verifiable claims for the life of the of the SCITT instance. One of the many questions that surfaces is how big will the SCITT ledger get? What kind of data will go on the SCITT ledger that would cause it to grow?
 
@@ -33,12 +33,12 @@ SCITT is analogous to a digital, or electronic notary service (eNotary), where m
 
 In SCITT, the ledger will contain pointers to the artifact, which the claims are made, with pointers to any supporting evidence.
 
-### Evidence Persistance
+### Evidence Persistence
 
 A SCITT instance will persist verifiable claims to its ledger. Any optional evidence will be persisted in associated storage. 
 
-<img src="./assets/scitt-persistence.png" alt="SCITT persistance" style="width:600px;"/>
+<img src="./assets/scitt-persistence.png" alt="SCITT persistence" style="width:600px;"/>
 
-While a SCITT instance should provide a default storage, there's no limit on what storage services are used. For package managers that support breadths of content types, the evidence may be stored alongside the artifact by which the claim is being made. For package managers that limit the content types to the specific package type, a SCITT instance should provide default storage persistance.
+While a SCITT instance should provide a default storage, there's no limit on what storage services are used. For package managers that support breadths of content types, the evidence may be stored alongside the artifact by which the claim is being made. For package managers that limit the content types to the specific package type, a SCITT instance should provide default storage persistence.
 
 For more info, see: [Supply Chains]({% link supply-chain.md %})
