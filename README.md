@@ -7,7 +7,7 @@ nav_order: 0
 
 # What Is SCITT
 
-The **S**upply **C**hain **I**ntegrity, **T**ransparency and **T**rust (SCITT) initiative is a set of proposed [IETF industry standards]({{ site.ietf-scitt }}){:target="_blank"} for managing the compliance of goods and services across end-to-end supply chains.
+The **S**upply **C**hain **I**ntegrity, **T**ransparency and **T**rust (SCITT) initiative is a set of proposed [IETF internet standards]({{ site.ietf-scitt }}){:target="_blank"} for managing the compliance of goods and services across end-to-end supply chains.
 SCITT supports the ongoing verification of goods and services where the authenticity of entities, evidence, policy, and artifacts can be assured and the actions of entities can be guaranteed to be authorized, non-repudiable, immutable, and auditable.
 
 ## Interacting with SCITT
@@ -23,7 +23,7 @@ In SCITT, structured data is a claim. A claim is a well-structured statement, ma
 
 Documenting claims at the time software is built or deployed would sell SCITT short, as software isn't static. Software is continually updated, and more importantly, we continually learn and want to convey new information about artifacts that have already been released. Reputable OSS Projects and Independent Software Vendors (ISVs) don't intentionally produce software they know to be vulnerable. Only after the software is public do we often find out about new vulnerabilities. SCITT is a means to convey a stream of continual updates for each versioned artifact.
 
-## SCITT Persistance
+## SCITT Persistence
 
 SCITT is intended to store verifiable claims for the life of the of the SCITT instance. One of the many questions that surfaces is how big will the SCITT ledger get? What kind of data will go on the SCITT ledger that would cause it to grow?
 
