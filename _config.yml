@@ -63,6 +63,12 @@ nav_external_links:
   - title: "SCITT Software Use Case"
     url: https://datatracker.ietf.org/doc/draft-ietf-scitt-software-use-cases/
     hide_icon: false
+  - title: "SCITT Emulator"
+    url: https://github.com/scitt-community/scitt-api-emulator
+    hide_icon: false
+  - title: "did:web generator"
+    url: https://github.com/scitt-community/did-web-demo
+    hide_icon: false
 
 ##############################
 # Just the Docs Theme Settings
