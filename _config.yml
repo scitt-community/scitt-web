@@ -17,6 +17,7 @@ title: SCITT - Supply Chain Integrity and Trust
 # email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   The Supply Chain Integrity, Transparency and Trust (SCITT) initiative is a set of proposed industry standards for managing the compliance of goods and services across end-to-end supply chains.
+# baseurl: "/scitt-web" # use this line for local rendering and forked rendering. Revert to below before committing to the upstream project
 baseurl: "/" # the subpath of your site, e.g. /blog
 # url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: SCITT
@@ -54,13 +55,13 @@ nav_external_links:
     url: https://datatracker.ietf.org/wg/scitt/
     hide_icon: false
   - title: "SCITT Architecture"
-    url: https://datatracker.ietf.org/doc/draft-birkholz-scitt-architecture/
+    url: https://datatracker.ietf.org/doc/draft-ietf-scitt-architecture/
     hide_icon: false
   - title: "SCITT Receipts"
     url: https://datatracker.ietf.org/doc/draft-birkholz-scitt-receipts/
     hide_icon: false
   - title: "SCITT Software Use Case"
-    url: https://datatracker.ietf.org/doc/draft-birkholz-scitt-software-use-cases/
+    url: https://datatracker.ietf.org/doc/draft-ietf-scitt-software-use-cases/
     hide_icon: false
 
 ##############################
