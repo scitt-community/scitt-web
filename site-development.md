@@ -2,7 +2,7 @@
 
 These pages are currently built with [jekyll](https://jekyllrb.com/).
 
-Following the great [video from Bill Raymond](https://www.youtube.com/watch?v=owHfKAbJ6_M), you can build, test, iterate locally, without having to install or manage the jekyll dependencies.
+Following the great [video from Bill Raymond](https://youtu.be/zijOXpZzdvs?t=372), you can build, test, iterate locally, without having to install or manage the jekyll dependencies.
 
 For detailed steps: [BillRaymond/my-jekyll-docker-website](https://github.com/BillRaymond/my-jekyll-docker-website)
 
@@ -15,7 +15,7 @@ For detailed steps: [BillRaymond/my-jekyll-docker-website](https://github.com/Bi
 
 ## Incremental Building
 
-Once you've built the container, and initiated the local jekyll builid process, the following steps are what you need to start a session.
+Once you've built the container, and initiated the local jekyll build process, the following steps are what you need to start a session.
 
 1. In Visual Studio Code, open the terminal window and type:
     ``` bash
@@ -23,7 +23,7 @@ Once you've built the container, and initiated the local jekyll builid process, 
     ```
 
 ## Closing the container
-It is a good practice to close the container when you are done coding as it will free up memomry and resources on your base operating system. You can do that directly inside Visual Studio Code. 
+It is a good practice to close the container when you are done coding as it will free up memory and resources on your base operating system. You can do that directly inside Visual Studio Code. 
 1. To close and exit the container, in Visual Studio Code, close it by typing `COMMAND+SHIFT+P`, then type `Close remote connection`, and press `return`
 
 ## Opening the container
