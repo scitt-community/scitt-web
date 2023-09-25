@@ -7,14 +7,7 @@ nav_order: 110
 
 To support the [SCITT Use Cases][use-cases], the follow examples are illustrated.
 
-## Integrating SCITT With a Build System
-
-- How to structure SCITT Feeds
-- How to correlate each build artifact with previous versions
-- How to sign the statements
-- Where to store SCITT Receipts
-
-For this example, we'll use the ___ Github repository
+- [Binary Use Case: Multi-Version Product Support, With Third Party Statements of Quality](./feed-binary-usecase.md)
 
 [use-cases]:       https://datatracker.ietf.org/doc/draft-ietf-scitt-software-use-cases/
 
