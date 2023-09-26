@@ -7,7 +7,7 @@ Their software is distributed as container images and loose binaries for Linux a
 They maintain multiple versions of their software, while releasing patched versions.
 
 Wabbit Networks provides SBOMs, VEX Reports with a Vendor Response File (VRF) for each of their releases.
-They occasionally need to issue new versions of the VRF, as well as updated VEX reports.
+They occasionally need to issue new versions of the VRF, as well as updated VEX reports, because even while the software may remain unmodified th vulnerability landscape and Rabbit Networks' understanding of it is constantly evolving.
 
 ### The Net Monitor Release Page
 
