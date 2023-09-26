@@ -3,7 +3,7 @@
 ## Software Producer
 
 [Wabbit Networks](fictitious-companies.md#wabbit-networks) frequently releases their **net-monitor** software.
-Their software is distributed as a container images and loose binaries for Linux and Windows servers.
+Their software is distributed as container images and loose binaries for Linux and Windows servers.
 They maintain multiple versions of their software, while releasing patched versions.
 
 Wabbit Networks provides SBOMs, VEX Reports with a Vendor Response File (VRF) for each of their releases.
