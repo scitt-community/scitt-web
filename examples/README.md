@@ -5,7 +5,7 @@ nav_order: 110
 ---
 # Examples
 
-To support the [SCITT Use Cases][use-cases], the follow examples are illustrated.
+To support the [SCITT Use Cases][use-cases], the following examples are illustrated.
 
 - [Binary Use Case: Multi-Version Product Support, With Third Party Statements of Quality](./feed-binary-usecase.md)
 
