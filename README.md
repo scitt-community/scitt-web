@@ -29,7 +29,7 @@ SCITT is intended to store Transparent Statements for the life of the of the SCI
 
 ### eNotary
 
-SCITT is analogous to a digital, or electronic notary service (eNotary), where minimal information is written to the append-only log, counter-signing the Statement. When users notarize legal documents, the notary append-only log records the verified identity of the parties, referencing the legal document they are notarizing. The notary append-only log doesn't store the legal document, but does have a reference to it. 
+SCITT is analogous to a digital or electronic notary service (eNotary), where minimal information is written to the append-only log and an augmented counter-signature over the Statement and corresponding metadata (Receipt) is produced. When users notarize legal documents, the notary append-only log records the verified identity of the parties, referencing the legal document they are notarizing. The notary append-only log doesn't store the legal document, but does have a reference to it. 
 
 In SCITT, the append-only log will contain pointers to the artifact, which Statements are made, with optional pointers to any supporting evidence.
 
