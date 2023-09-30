@@ -11,7 +11,7 @@ A set of software producers.
 Wabbit Networks is a software company, specializing in network monitoring software.
 They distribute their software as container images and loose binaries for Linux and Windows servers.
 As consumers purchase different versions, Wabbit Networks maintain multiple versions of their software, while releasing patched versions.
-Over time, some versions become "End of Life" (EOL), where support is no longer supported.
+Over time, some versions become "End of Life" (EOL), where support is no longer provided.
 For each version that's marked EOL, a new supported version is provided.
 
 ## Software Consumers
