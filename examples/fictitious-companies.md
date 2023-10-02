@@ -1,3 +1,10 @@
+---
+layout: page
+title:  # Fictitious Companies
+parent: Examples
+nav_order: 100
+---
+
 # Fictitious Companies
 
 To minimize context switching when reading through SCITT Scenarios, Use Cases and Examples, a set of fictitious companies and personas are used.

@@ -1,3 +1,10 @@
+---
+layout: page
+title:  # Binary Use Case
+parent: Examples
+nav_order: 10
+---
+
 # Binary Use Case
 
 ## Software Producer
