@@ -2,7 +2,7 @@
 
 ## Software Producer
 
-[Wabbit Networks](fictitious-companies.md#wabbit-networks) frequently releases their **net-monitor** software.
+[Wabbit Networks](fictitious-companies.md#wabbit-networks) frequently releases their **Net Monitor** software.
 Their software is distributed as container images and loose binaries for Linux and Windows servers.
 They maintain multiple versions of their software, while releasing patched versions.
 
