@@ -53,15 +53,6 @@ nav_external_links:
   - title: "IETF datatracker:SCITT"
     url: https://datatracker.ietf.org/wg/scitt/
     hide_icon: false
-  - title: "SCITT Architecture"
-    url: https://datatracker.ietf.org/doc/draft-birkholz-scitt-architecture/
-    hide_icon: false
-  - title: "SCITT Receipts"
-    url: https://datatracker.ietf.org/doc/draft-birkholz-scitt-receipts/
-    hide_icon: false
-  - title: "SCITT Software Use Case"
-    url: https://datatracker.ietf.org/doc/draft-birkholz-scitt-software-use-cases/
-    hide_icon: false
 
 ##############################
 # Just the Docs Theme Settings
