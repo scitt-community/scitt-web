@@ -11,7 +11,7 @@ SCITT provides the registration, persistance and querying of a series of Transpa
 
 Producers and Third Parties create and register Signed Statements on one or more SCITT Services. And Consumers query one or more SCITT Services for information about software they wish to evaluate.
 
-To demonstrate how SCITT Implements this workflow a collection of Scenarios and examples are provided using the [SCITT Community API Emulator](https://github.com/scitt-community/scitt-api-emulator) and [SCITT.xyz](https://scitt.xyz)
+To demonstrate how SCITT Implements this workflow, a collection of scenarios and examples are provided using the [SCITT Community API Emulator](https://github.com/scitt-community/scitt-api-emulator) and [SCITT.xyz](https://scitt.xyz)
 
 ## Scenario: Series of Transparent Statements Over the Life of an Artifact
 
