@@ -25,7 +25,7 @@ Documenting Statements at the time software is built or deployed would sell SCIT
 
 ## SCITT Persistence
 
-SCITT is intended to store Transparent Statements for the life of the of the SCITT instance. One of the many questions that surfaces is how big will the SCITT append-only log get? What kind of data will go on the SCITT append-only log that would cause it to grow?
+SCITT is intended to store Signed Statements for the life of the of the SCITT instance. One of the many questions that surfaces is how big will the SCITT append-only log get? What kind of data will go on the SCITT append-only log that would cause it to grow?
 
 ### eNotary
 
