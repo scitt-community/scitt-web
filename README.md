@@ -41,4 +41,4 @@ A SCITT instance will persist  Signed Statements to its append-only log. Any opt
 
 While a SCITT instance should provide a default storage, there's no limit on what storage services are used. For package managers that support breadths of content types, the evidence may be stored alongside the artifact by which the Statement is being made. For package managers that limit the content types to the specific package type, a SCITT instance should provide default storage persistence.
 
-For more info, see: [Supply Chains]({% link supply-chain.md %})
+For more info, see: [Supply Chains](./supply-chain.md)
