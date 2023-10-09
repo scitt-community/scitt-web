@@ -7,7 +7,7 @@ nav_order: 100
 
 # Fictitious Companies
 
-To minimize context switching when reading through SCITT Scenarios, Use Cases and Examples, a set of fictitious companies and personas are used.
+To minimize context switching when reading through SCITT scenarios, Use Cases and Examples, a set of fictitious companies and personas are used.
 The companies and personas aim to represent sets of end-to-end scenarios.
 
 ## Software Producers

@@ -42,9 +42,9 @@ Ultimately, a Feed is the identifier used to query a series of statements about 
 A few constructs are assumed:
 
 - A Feed should is defined by the issuer of the artifact
-- Other parties may reference the same Feed, making additional statements, signed with their identity
-  - Other parties, if permitted by the registration policy of the publishers SCITT instance, may publish Signed Statements to the same Feed
-  - To enable autonomy, other parties may publish Signed Statements to a different SCITT instance, about the same Feed
+- Other parties can reference the same Feed, making additional statements, signed with their identity
+  - Other parties, if permitted by the registration policy of the publishers SCITT instance, can publish Signed Statements to the same Feed
+  - To enable autonomy, other parties can publish Signed Statements to a different SCITT instance, about the same Feed
 - From a SCITT perspective, the Feed ID is a string as trying to solve the one global unique identifier for software, hardware, content and other types is beyond the scope of SCITT
 - Consumers need to be able to find the Feed ID, based on nothing more than having reference to the artifact they wish to discover information
 - As SCITT supports Signed Statements, issued by an Identity, the following proposal uses the Identity of the Signed Statement as the Identity associated with the Feed
