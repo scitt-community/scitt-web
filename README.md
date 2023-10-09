@@ -35,7 +35,7 @@ In SCITT, the append-only log will contain pointers to the artifact, which State
 
 ### Evidence Persistence
 
-A SCITT instance will persist Transparent Statements to its append-only log. Any optional evidence will be persisted in associated storage. 
+A SCITT instance will persist  Signed Statements to its append-only log. Any optional evidence will be persisted in associated storage. 
 
 <img src="./assets/scitt-persistence.png" alt="SCITT persistence" style="width:600px;"/>
 
