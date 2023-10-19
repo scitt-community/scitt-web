@@ -32,11 +32,11 @@ The following specifications are part of, or related to the IETF SCITT working g
 ## SCITT Related Specifications
 
 - [IETF: COSE Specification][cose-spec]{:target="_blank"}
+- [IETF: RATS][rats]{:target="_blank"}
+- [IETF: CBOR Web Token (CWT) Claims in COSE Headers](https://datatracker.ietf.org/doc/draft-ietf-cose-cwt-claims-in-headers/){:target="_blank"}
+  -  [GitHub Repo](https://github.com/tplooker/draft-ietf-cose-cwt-claims-in-headers){:target="_blank"}
 - [OCI: Distribution][oci-distribution-spec]{:target="_blank"}
 
-## SCITT Related Working Groups
-
-- [IETF: RATS][rats]{:target="_blank"}
 
 [cose-spec]:               https://datatracker.ietf.org/doc/html/rfc8152
 [oci-distribution-spec]:   https://github.com/opencontainers/distribution-spec
