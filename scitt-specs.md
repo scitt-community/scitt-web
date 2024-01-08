@@ -19,6 +19,8 @@ The following specifications are part of, or related to the IETF SCITT working g
   - [GitHub Repo](https://github.com/ietf-scitt/draft-birkholz-scitt-receipts){:target="_blank"}
 - SCITT Reference APIs (SCRAPI)
   - [GitHub Repo](https://github.com/ietf-scitt/draft-birkholz-scitt-scrapi/){:target="_blank"}
+- SCITT COSE Hash Envelope
+  - [GitHub Repo](https://github.com/OR13/draft-steele-cose-hash-envelope){:target="_blank"}
 
 ## SCITT Community Projects
 
