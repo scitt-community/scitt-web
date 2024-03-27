@@ -19,3 +19,8 @@ Software and services that implement the SCITT architecture support a variety of
 - [SPDX](https://spdx.dev/)
 - [Software Identificatino Tags - SWID (ISO/IEC 19770-2:2015)](https://www.iso.org/standard/65666.html)
 - [CoSWID - Concise Software Identification Tags (RFC9393)](https://datatracker.ietf.org/doc/rfc9393/)
+
+### Digital Signatures
+
+- [OpenPubkey](https://www.bastionzero.com/openpubkey)
+- [Sigstore](https://www.sigstore.dev/)
