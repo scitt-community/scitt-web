@@ -24,3 +24,9 @@ Software and services that implement the SCITT architecture support a variety of
 
 - [OpenPubkey](https://www.bastionzero.com/openpubkey)
 - [Sigstore](https://www.sigstore.dev/)
+
+## Vulnerability Disclosure and Management
+
+- [Common Security Advisory Framework (CSAF)](https://csaf.io)
+- [VEX CSAF Profile](https://docs.oasis-open.org/csaf/csaf/v2.0/os/csaf-v2.0-os.html#45-profile-5-vex)
+- [OpenVEX](https://github.com/openvex)
