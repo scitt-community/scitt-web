@@ -45,8 +45,6 @@ SLSA together with SigStore is [used by npm](https://github.blog/2023-04-19-intr
 - [Security scorecards](https://securityscorecards.dev/)
 - [in-toto attestations](https://in-toto.io/)
 
-
-
 ## Related tools
 
 ### Digital Signatures and Key Transparency
