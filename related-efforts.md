@@ -32,7 +32,6 @@ A list of artifact types that can be (potentially) recorded in a Transparency re
 - [CoSWID - Concise Software Identification Tags (RFC9393)](https://datatracker.ietf.org/doc/rfc9393/)
 - [Microsoft's SBOM tool](https://github.com/microsoft/sbom-tool)
 
-
 ### Vulnerability Disclosure and Management
 
 - [Common Security Advisory Framework (CSAF)](https://csaf.io)
