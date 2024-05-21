@@ -18,7 +18,7 @@ The following specifications are part of, or related to the IETF SCITT working g
   - [IETF datatracker](https://datatracker.ietf.org/doc/draft-birkholz-scitt-receipts/){:target="_blank"}
   - [GitHub Repo](https://github.com/ietf-scitt/draft-birkholz-scitt-receipts){:target="_blank"}
 - SCITT Reference APIs (SCRAPI)
-  - [GitHub Repo](https://github.com/ietf-scitt/draft-birkholz-scitt-scrapi/){:target="_blank"}
+  - [GitHub Repo](https://github.com/ietf-wg-scitt/draft-ietf-scitt-scrapi){:target="_blank"}
 - SCITT COSE Hash Envelope
   - [GitHub Repo](https://github.com/OR13/draft-steele-cose-hash-envelope){:target="_blank"}
 
@@ -36,9 +36,8 @@ The following specifications are part of, or related to the IETF SCITT working g
 - [IETF: COSE Specification][cose-spec]{:target="_blank"}
 - [IETF: RATS][rats]{:target="_blank"}
 - [IETF: CBOR Web Token (CWT) Claims in COSE Headers](https://datatracker.ietf.org/doc/draft-ietf-cose-cwt-claims-in-headers/){:target="_blank"}
-  -  [GitHub Repo](https://github.com/tplooker/draft-ietf-cose-cwt-claims-in-headers){:target="_blank"}
+  - [GitHub Repo](https://github.com/tplooker/draft-ietf-cose-cwt-claims-in-headers){:target="_blank"}
 - [OCI: Distribution][oci-distribution-spec]{:target="_blank"}
-
 
 [cose-spec]:               https://datatracker.ietf.org/doc/html/rfc8152
 [oci-distribution-spec]:   https://github.com/opencontainers/distribution-spec
