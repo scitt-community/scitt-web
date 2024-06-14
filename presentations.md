@@ -7,6 +7,10 @@ nav_order: 110
 
 # SCITT Presentations
 
+Below is a list of presentations of community interest from the official IETF working group, this community, and other venues.
+
+If you are looking for recordings of the scitt.io community meetings, whether or not they have presentations, please [check out the community page](/community#previous-meetings).
+
 ## 2024-06-11: Sigstore Community
 
 - [Recording](https://www.youtube.com/watch?v=1hf-QIyk4pA){:target="_blank"}
