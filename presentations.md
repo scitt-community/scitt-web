@@ -10,7 +10,7 @@ nav_order: 110
 ## 2024-06-11: Sigstore Community
 
 - [Recording](https://www.youtube.com/watch?v=1hf-QIyk4pA){:target="_blank"}
-- [Slides](/presentations/2024-06-11-sigstore-scitt.pdf){:target="_blank"}
+- [Slides](/assets/2024-06-11-sigstore-scitt.pdf){:target="_blank"}
 
 ## 2024-03-21: IETF 119
 
