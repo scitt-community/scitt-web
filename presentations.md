@@ -11,6 +11,11 @@ Below is a list of presentations of community interest from the official IETF wo
 
 If you are looking for recordings of the scitt.io community meetings, whether or not they have presentations, please [check out the community page](/community#previous-meetings).
 
+## 2024-06-17: Detached/Hashed Payloads - SCITT Community Call
+
+- [Deatched / Hashed Payloads (PDF)](./assets/SCITT-Detached-HashedPayloads.pdf){:target="_blank"}
+- [Deatched / Hashed Payloads (PowerPoint w/animation)](./assets/SCITT-Detached-HashedPayloads.pptx){:target="_blank"}
+
 ## 2024-06-11: Sigstore Community
 
 - [Recording](https://www.youtube.com/watch?v=1hf-QIyk4pA){:target="_blank"}

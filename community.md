@@ -28,6 +28,9 @@ There are multiple ways to involve yourself in our community:
 
 Below is a list of recording of previous meetings and a description of key themes. You can also visit or bookmark the SCITT Community channel's [playlist for all community meetings](https://www.youtube.com/watch?v=YBGM6oRzemY&list=PL_84g0sN1F8FrrqM2eNVu3NARA4jEWF_L&pp=iAQB) to keep current or watch them in order. You can find external presentation slides and recordings on the [presentation page](/presentations).
 
+- [20240607](https://youtu.be/g4362iPXDIQ): On June 17, 2024 Steve Lasker presented a proposal for setting the SCITT Signed Statement Payload to a hash enabling signature verification without having to fetch the entire payload. This is aligns with [draft-steele-cose-hash-envelope](https://or13.github.io/draft-steele-cose-hash-envelope/draft-steele-cose-hash-envelope.html)
+  - [Deatched / Hashed Payloads (PDF)](./assets/SCITT-Detached-HashedPayloads.pdf){:target="_blank"}
+  - [Deatched / Hashed Payloads (PowerPoint w/animation)](./assets/SCITT-Detached-HashedPayloads.pptx){:target="_blank"}
 - [20240603](https://youtu.be/Q23GS8zK1tw?si=jl6j7FtX3Q_nRpEs): On June 6, 2024, community members welcomed an impromptu visit by [Sigstore](https://sigstore.dev) maintainer [Hayden Blauzvern](https://github.com/haydentherapper) to answer questions about shared ground between Sigstore and SCITT specifications. 
 - [20240408](https://youtu.be/YBGM6oRzemY?si=aS-RVxCT6OZuCkpz): On April 8, 2024, community members reviewed the current state of the CISA RSAA system and whether or not it is "SCITT-friendly" and whether or not that is important.
 
