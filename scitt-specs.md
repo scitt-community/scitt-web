@@ -14,8 +14,8 @@ The following specifications are part of, or related to the IETF SCITT working g
 - SCITT Architecture
   - [IETF datatracker](https://datatracker.ietf.org/doc/draft-ietf-scitt-architecture/){:target="_blank"}
   - [GitHub Repo](https://github.com/ietf-wg-scitt/draft-ietf-scitt-architecture){:target="_blank"}
-draft-birkholz-scitt-receipts){:target="_blank"}
 - SCITT Reference APIs (SCRAPI)
+  - [IETF datatracker](https://datatracker.ietf.org/doc/draft-ietf-scitt-scrapi/){:target="_blank"}
   - [GitHub Repo](https://github.com/ietf-wg-scitt/draft-ietf-scitt-scrapi){:target="_blank"}
 
 ## SCITT Community Projects
