@@ -25,6 +25,10 @@ There are multiple ways to involve yourself in our community:
 
 Below is a list of recording of previous meetings and a description of key themes. You can also visit or bookmark the SCITT Community channel's [playlist for all community meetings](https://www.youtube.com/watch?v=YBGM6oRzemY&list=PL_84g0sN1F8FrrqM2eNVu3NARA4jEWF_L&pp=iAQB) to keep current or watch them in order. You can find external presentation slides and recordings on the [presentation page](/presentations).
 
+### [2024-07-01](https://youtu.be/3PGgTXd9B5k)
+
+On July 1, 2024, Jon Geater reviewed his presentation regarding his [UN AI for Good Summit workshop around detection and monitoring for deepfakes](https://aiforgood.itu.int/event/detecting-deepfakes-and-generative-ai-standards-for-ai-watermarking-and-multimedia-authenticity/){:target="_blank"}, [C2PA](https://c2pa.org) watermaking, and implications for possible large-scale deployment of SCITT Transparency Services to support it. 
+
 ### [2024-06-07](https://youtu.be/g4362iPXDIQ)
 
 On June 17, 2024 Steve Lasker presented a proposal for setting the SCITT Signed Statement Payload to a hash enabling signature verification without having to fetch the entire payload. This is aligns with [draft-steele-cose-hash-envelope](https://or13.github.io/draft-steele-cose-hash-envelope/draft-steele-cose-hash-envelope.html)
