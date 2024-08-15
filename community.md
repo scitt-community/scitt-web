@@ -25,6 +25,10 @@ There are multiple ways to involve yourself in our community:
 
 Below is a list of recording of previous meetings and a description of key themes. You can also visit or bookmark the SCITT Community channel's [playlist for all community meetings](https://www.youtube.com/watch?v=YBGM6oRzemY&list=PL_84g0sN1F8FrrqM2eNVu3NARA4jEWF_L&pp=iAQB) to keep current or watch them in order. You can find external presentation slides and recordings on the [presentation page](/presentations).
 
+### [2024-08-12](https://youtu.be/1cS01XE5uO8)
+
+On August 12, 2024, invited guest  Olle Johansson from the [CycloneDX Transparency Exchange API (TEA)](https://github.com/CycloneDX/transparency-exchange-api) project presented on the TEA architecture, open questions in their design as they advance it, their standardization process (via ECMA) for the specification, and its possible relationship and shared ground with SCITT. Community members discussed possible topics to evaluate architectural building blocks and integration of SCITT and TEA instances.
+
 ### [2024-07-01](https://youtu.be/3PGgTXd9B5k)
 
 On July 1, 2024, Jon Geater reviewed his presentation regarding his [UN AI for Good Summit workshop around detection and monitoring for deepfakes](https://aiforgood.itu.int/event/detecting-deepfakes-and-generative-ai-standards-for-ai-watermarking-and-multimedia-authenticity/){:target="_blank"}, [C2PA](https://c2pa.org) watermaking, and implications for possible large-scale deployment of SCITT Transparency Services to support it. 
