@@ -19,7 +19,7 @@ There are multiple ways to involve yourself in our community:
 
 - Create issues, request code changes on pull requests, or comment on them [in our GitHub repos](https://github.com/scitt-community/){:target="_blank"}.
 - Join [our groups.io mailing list](https://groups.io/g/scitt-community){:target="_blank"}, give feedback on the email threads of others, or start your very own.
-- Attend our bi-weekly community meetings to discuss a variety of topics, ask questions, and better understand where your interests intersect with the group. We [meet online](https://meet.google.com/rek-mbak-nxv){:target="_blank"} every two weeks at [16:00 UTC](https://time.is/compare/300PM_5_June_2024_in_UTC/Tokyo/California/New_York/London){:target="_blank"} and more information can be found in our [online iCalendar feed](/assets/schedule.ics).
+- Attend our bi-weekly community meetings to discuss a variety of topics, ask questions, and better understand where your interests intersect with the group. We [meet online](https://gatech.zoom.us/j/98353449416){:target="_blank"} every two weeks at [16:00 UTC](https://time.is/compare/300PM_5_June_2024_in_UTC/Tokyo/California/New_York/London){:target="_blank"} and more information can be found in our [online iCalendar feed](/assets/schedule.ics).
 
 ## Previous Meetings
 
