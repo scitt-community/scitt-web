@@ -1,10 +1,12 @@
 maintainers:
+  - aj-stein
   - henkbirkholz
   - JAG-UK
-  - kaywilliams
-  - kkarunakaran89
   - mprorock
   - OR13
   - SteveLasker
   - yogeshbdeshpande
 triage:
+emeritus:
+  - kaywilliams
+  - kkarunakaran89
