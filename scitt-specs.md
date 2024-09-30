@@ -31,8 +31,8 @@ The following specifications are part of, or related to the IETF SCITT working g
 
 - [IETF: COSE](https://datatracker.ietf.org/doc/html/rfc8152){:target="_blank"}
   - COSE Hash Envelope
-    - [IETF datatracker](https://datatracker.ietf.org/doc/draft-steele-cose-hash-envelope/){:target="_blank"}
-    - [GitHub Repo](https://github.com/OR13/draft-steele-cose-hash-envelope){:target="_blank"}
+    - [IETF datatracker](https://datatracker.ietf.org/doc/draft-ietf-cose-hash-envelope/){:target="_blank"}
+    - [GitHub Repo](https://github.com/cose-wg/draft-ietf-cose-hash-envelope){:target="_blank"}
   - COSE Receipts
     - [IETF datatracker](https://datatracker.ietf.org/doc/draft-ietf-cose-merkle-tree-proofs/){:target="_blank"}
     - [GitHub Repo](https://github.com/cose-wg/draft-ietf-cose-merkle-tree-proofs){:target="_blank"}
