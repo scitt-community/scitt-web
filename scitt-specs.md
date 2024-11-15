@@ -15,6 +15,7 @@ The following specifications are part of, or related to the IETF SCITT working g
   - [IETF datatracker](https://datatracker.ietf.org/doc/draft-ietf-scitt-architecture/){:target="_blank"}
   - [GitHub Repo](https://github.com/ietf-wg-scitt/draft-ietf-scitt-architecture){:target="_blank"}
 - SCITT Reference APIs (SCRAPI)
+  - [IETF datatracker](https://datatracker.ietf.org/doc/draft-ietf-scitt-scrapi/){:target="_blank"}
   - [GitHub Repo](https://github.com/ietf-wg-scitt/draft-ietf-scitt-scrapi){:target="_blank"}
 - SCITT COSE Hash Envelope
   - [GitHub Repo](https://github.com/OR13/draft-steele-cose-hash-envelope){:target="_blank"}
