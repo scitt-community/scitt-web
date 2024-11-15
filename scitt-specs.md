@@ -20,7 +20,7 @@ The following specifications are part of, or related to the IETF SCITT working g
 - SCITT COSE Hash Envelope
   - [GitHub Repo](https://github.com/cose-wg/draft-ietf-cose-hash-envelope){:target="_blank"}
 - COSE Receipts
-  - [IETF datatracker](https://datatracker.ietf.org/doc/draft-birkholz-scitt-receipts/){:target="_blank"}
+  - [IETF datatracker](https://datatracker.ietf.org/doc/draft-ietf-cose-merkle-tree-proofs/){:target="_blank"}
   - [GitHub Repo](https://github.com/ietf-scitt/draft-birkholz-scitt-receipts){:target="_blank"}
 - COSE Receipts - CCF Profile
   - [IETF datatracker](https://datatracker.ietf.org/doc/draft-birkholz-cose-receipts-ccf-profile/){:target="_blank"}
