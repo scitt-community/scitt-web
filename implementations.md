@@ -5,7 +5,7 @@ As the draft evolves, each implementation should specify which version of the dr
 
 ## DataTrails
 
-- Draft Version: [08](https://datatracker.ietf.org/doc/draft-ietf-scitt-architecture/08/)
+- Draft Version: [10](https://datatracker.ietf.org/doc/draft-ietf-scitt-architecture/10/)
 - Documentation: [Quickstart: SCITT Statements (Preview)](https://docs.datatrails.ai/developers/developer-patterns/scitt-api/)
 
 ### DataTrails SCITT GitHub Action
