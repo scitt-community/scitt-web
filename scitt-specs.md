@@ -22,7 +22,7 @@ The following specifications are part of, or related to the IETF SCITT working g
 - COSE Receipts
   - [IETF datatracker](https://datatracker.ietf.org/doc/draft-birkholz-scitt-receipts/){:target="_blank"}
   - [GitHub Repo](https://github.com/ietf-scitt/draft-birkholz-scitt-receipts){:target="_blank"}
-- COSE Receipts CCF Profile
+- COSE Receipts - CCF Profile
   - [IETF datatracker](https://datatracker.ietf.org/doc/draft-birkholz-cose-receipts-ccf-profile/){:target="_blank"}
   - [GitHub Repo](https://github.com/ietf-scitt/draft-birkholz-cose-cometre-ccf-profile){:target="_blank"}
 - COSE Receipts - Merkle Mountain Range Profile
