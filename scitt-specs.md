@@ -34,16 +34,12 @@ The following specifications are part of, or related to the IETF SCITT working g
   - [GitHub Repo](https://github.com/scitt-community/scitt-api-emulator){:target="_blank"}
 - SCITT REST Emulator
   - [SCITT.xyz](https://scitt.xyz/){:target="_blank"}
-- SCITT DID Web Demo
-  - [GitHub Repo](https://github.com/scitt-community/did-web-demo){:target="_blank"}
 
 ## SCITT Related Specifications
 
 - [IETF: COSE Specification][cose-spec]{:target="_blank"}
 - [IETF: RATS][rats]{:target="_blank"}
-- IETF: CBOR Web Token (CWT) Claims in COSE Headers
-  - [IETF datatracker](https://datatracker.ietf.org/doc/draft-ietf-cose-cwt-claims-in-headers/){:target="_blank"}
-  - [GitHub Repo](https://github.com/tplooker/draft-ietf-cose-cwt-claims-in-headers){:target="_blank"}
+- [IETF: CBOR Web Token (CWT) Claims in COSE Headers](https://datatracker.ietf.org/doc/draft-ietf-cose-cwt-claims-in-headers/){:target="_blank"}
 
 [cose-spec]:               https://datatracker.ietf.org/doc/html/rfc8152
 [rats]:                    https://datatracker.ietf.org/wg/rats/documents/
