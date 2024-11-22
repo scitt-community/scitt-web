@@ -26,8 +26,8 @@ The following specifications are part of, or related to the IETF SCITT working g
   - [IETF datatracker](https://datatracker.ietf.org/doc/draft-birkholz-cose-receipts-ccf-profile/){:target="_blank"}
   - [GitHub Repo](https://github.com/ietf-scitt/draft-birkholz-cose-cometre-ccf-profile){:target="_blank"}
 - COSE Receipts - Merkle Mountain Range Profile
-  - [IETF datatracker](https://datatracker.ietf.org/doc/draft-birkholz-cose-receipts-ccf-profile/){:target="_blank"}
-  - [GitHub Repo](https://datatracker.ietf.org/doc/draft-bryce-cose-merkle-mountain-range-proofs/){:target="_blank"}
+  - [IETF datatracker](https://datatracker.ietf.org/doc/draft-bryce-cose-merkle-mountain-range-proofs){:target="_blank"}
+  - [GitHub Repo](https://github.com/robinbryce/draft-bryce-cose-merkle-mountain-range-proofs){:target="_blank"}
 
 ## SCITT Community Projects
 
