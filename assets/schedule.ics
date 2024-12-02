@@ -31,7 +31,7 @@ UID:1717599749297-61909@ical.marudot.com
 DTSTART;TZID=America/New_York:20240603T110000
 RRULE:FREQ=WEEKLY;INTERVAL=2;BYDAY=MO;UNTIL=20250106T160000Z
 DTEND;TZID=America/New_York:20240603T120000
-EXDATE;TZID=America/New_York:20231104160000Z,20241202160000Z
+EXDATE:202311041600000Z,202412021600000Z
 SUMMARY:SCITT Community Call
 URL:https://github.com/scitt-community/#scitt-community-meetings
 DESCRIPTION:A bi-weekly community to talk about use cases and implementations of IETF SCITT and all things in the software supply chain space.
