@@ -18,6 +18,7 @@ The following specifications are part of, or related to the IETF SCITT working g
   - [IETF datatracker](https://datatracker.ietf.org/doc/draft-ietf-scitt-scrapi/){:target="_blank"}
   - [GitHub Repo](https://github.com/ietf-wg-scitt/draft-ietf-scitt-scrapi){:target="_blank"}
 - SCITT COSE Hash Envelope
+  - [IETF datatracker](https://datatracker.ietf.org/doc/draft-ietf-cose-hash-envelope/){:target="_blank"}
   - [GitHub Repo](https://github.com/cose-wg/draft-ietf-cose-hash-envelope){:target="_blank"}
 - COSE Receipts
   - [IETF datatracker](https://datatracker.ietf.org/doc/draft-ietf-cose-merkle-tree-proofs/){:target="_blank"}
